@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jenkins/caches/git-67a119efc48aaab7c509fa1f451e4445" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jenkins/workspace/Demo" vcs="Git" />
+  </component>
+</project>
