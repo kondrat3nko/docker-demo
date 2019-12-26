@@ -5,8 +5,8 @@ node {
 
     env.BRANCH_NAME = env.BRANCH_NAME ? env.BRANCH_NAME : 'master';
     def imageName = "myfirstdocker01/docker-demo:${env.BRANCH_NAME}.${env.BUILD_NUMBER}";
-    def registryUrl = "https://index.docker.io/v1/";
-    def registryCredentialsId = "myfirstdocker01";
+    def registryUrl = "https://registry.hub.docker.com";
+    def registryCredentialsId = "dockerhub_id";
 
     docker.withRegistry(registryUrl, registryCredentialsId) {
         def customImage;
